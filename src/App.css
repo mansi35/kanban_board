@@ -1,0 +1,14 @@
+body {
+    margin: 0 !important;
+}
+
+.app {
+    background-color: #f1f2f5;
+    height: 100vh;
+}
+
+.app__body {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}

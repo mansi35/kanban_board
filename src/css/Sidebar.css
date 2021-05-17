@@ -1,0 +1,16 @@
+.sidebar {
+    /* flex: 0.33; */
+    border-right: 1px #b7b7be solid;
+    height: 100vh;
+}
+
+.sidebar__logo {
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    cursor: pointer;
+}
+
+.sidebar__logo {
+    width: 200px;
+}

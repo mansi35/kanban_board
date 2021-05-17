@@ -1,8 +1,8 @@
 import React from 'react'
 import '../css/Header.css'
 import SearchIcon from '@material-ui/icons/Search';
-import AddIcon from '@material-ui/icons/Add';
-import NotificationsActiveIcon from '@material-ui/icons/NotificationsActive';
+import AddCircleOutlinedIcon from '@material-ui/icons/AddCircleOutlined';
+import NotificationsOutlinedIcon from '@material-ui/icons/NotificationsOutlined';
 import { Avatar, IconButton } from '@material-ui/core';
 import avatar from '../resources/avatar.jpg'
 
@@ -18,14 +18,14 @@ function Header() {
             
             <div className="header__right">
                 <IconButton>
-                    <AddIcon />
+                    <AddCircleOutlinedIcon fontSize="large" />
                 </IconButton>
                 <IconButton>
-                    <NotificationsActiveIcon />
+                    <NotificationsOutlinedIcon fontSize="large" />
                 </IconButton>
                 <div className="header__info">
                     <Avatar src={avatar} />
-                    <h4>Sophie Johnson</h4>
+                    <h5>Sophie Johnson</h5>
                 </div>
             </div>
         </div>

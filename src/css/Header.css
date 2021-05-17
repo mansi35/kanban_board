@@ -1,12 +1,9 @@
 .header {
-    padding: 15px 20px;
     display: flex;
     justify-content: space-between;
     position: sticky;
     background-color: #ffffff;
     z-index: 100;
-    top: 0;
-    flex: 1;
     box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
 }
 
@@ -20,7 +17,7 @@
     align-items: center;
     background-color: #eff2f5;
     padding: 10px;
-    margin-left: 10px;
+    margin: 10px;
     border-radius: 999px;
 }
 
@@ -35,12 +32,13 @@
     align-items: center;
 }
 
-.header__info > h4 {
+.header__info > h5 {
     margin-left: 10px;
 }
 
 .header__right {
     display: flex;
+    margin-right: 30px;
 }
 
 .header__left > img {

@@ -12,3 +12,8 @@ body {
 h5 {
     font-size: 18px;
 }
+
+.row {
+    margin: 0;
+    width: 100%;
+}

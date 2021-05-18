@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import ProjectInfo from './components/ProjectInfo';
 import View from './components/View';
+import ToDo from './components/ToDo';
 
 function App() {
 	return (
@@ -14,6 +15,14 @@ function App() {
 				<Header />
 				<ProjectInfo />
 				<View />
+				<div style={{margin: "10px 30px"}}>
+				<div className="row">
+					<ToDo />
+					<ToDo />
+					<ToDo />
+					<ToDo />
+				</div>
+				</div>
 			</div>
 		</div>
 	);

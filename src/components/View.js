@@ -18,7 +18,7 @@ function View() {
                 </button>
             </div>
             <div className="view__options">
-                <div className="view__input">
+                <div className="view__input d-none d-md-flex">
                     <SearchIcon style={{color: "#72777e"}} />
                     <input type="text" placeholder="Search" />
                 </div>

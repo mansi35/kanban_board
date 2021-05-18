@@ -55,3 +55,9 @@
     margin-left: -25px;
     margin-top: -15px;
 }
+
+@media (max-width: 767px) {
+    .header__right{
+        align-items: center;
+    }
+}

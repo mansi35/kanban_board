@@ -9,7 +9,7 @@ import avatar from '../resources/avatar.jpg'
 function Header() {
     return (
         <div className='header'>
-            <div className="header__left">
+            <div className="header__left d-none d-md-block">
                 <div className="header__input">
                     <SearchIcon style={{color: "#72777e"}} />
                     <input type="text" placeholder="Search for anything" />

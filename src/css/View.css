@@ -63,3 +63,15 @@
     padding: 10px;
     color: #72777e;
 }
+
+@media (max-width: 767px) {
+    .view {
+        display: block;
+    }
+    .view__options {
+        justify-content: center;
+    }
+    .view__search {
+        justify-content: center;
+    }
+}

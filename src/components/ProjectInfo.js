@@ -13,24 +13,26 @@ import avatar3 from '../resources/avatar3.jpg'
 function ProjectInfo() {
     return (
         <div className='projectInfo'>
-            <IconButton>
-                <img src={tasks} style={{height: 50}} alt="projects" />
-            </IconButton>
-            <h4 style={{margin: 0}}>Building a new app</h4>
-            <IconButton>
-                <ExpandMoreIcon />
-            </IconButton>
-            <IconButton>
-                <InfoOutlinedIcon />
-            </IconButton>
-            <IconButton>
-                <StarOutlineIcon />
-            </IconButton>
+            <div className="projectInfo__project">
+                <IconButton>
+                    <img src={tasks} style={{height: 50}} alt="projects" />
+                </IconButton>
+                <h4 style={{margin: 0}}>Building a new app</h4>
+                <IconButton>
+                    <ExpandMoreIcon />
+                </IconButton>
+            </div>
             <div className="projectInfo__users">
+                <IconButton>
+                    <InfoOutlinedIcon />
+                </IconButton>
+                <IconButton>
+                    <StarOutlineIcon />
+                </IconButton>
                 <Avatar src={avatar} />
                 <Avatar src={avatar2} />
                 <Avatar src={avatar3} />
-                <AddCircleOutlineSharpIcon style={{fontSize: 45, color: "#2F80ED"}} />
+                <AddCircleOutlineSharpIcon className="projectInfo__addUser" style={{fontSize: 45, color: "#2F80ED"}} />
             </div>
         </div>
     )

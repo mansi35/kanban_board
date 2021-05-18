@@ -11,7 +11,7 @@ function Header() {
         <div className='header'>
             <div className="header__left">
                 <div className="header__input">
-                    <SearchIcon />
+                    <SearchIcon style={{color: "#72777e"}} />
                     <input type="text" placeholder="Search for anything" />
                 </div>
             </div>
@@ -25,7 +25,7 @@ function Header() {
                 </IconButton>
                 <div className="header__info">
                     <Avatar src={avatar} />
-                    <h5>Sophie Johnson</h5>
+                    <h5>Mansi Sharma</h5>
                 </div>
             </div>
         </div>

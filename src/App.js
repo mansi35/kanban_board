@@ -2,6 +2,7 @@ import './App.css';
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import ProjectInfo from './components/ProjectInfo';
+import View from './components/View';
 
 function App() {
 	return (
@@ -12,6 +13,7 @@ function App() {
 			<div className="col-md-10" style={{padding: "0", margin: "0", backgroundColor: "#ffffff"}}>
 				<Header />
 				<ProjectInfo />
+				<View />
 			</div>
 		</div>
 	);

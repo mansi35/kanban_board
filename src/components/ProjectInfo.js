@@ -30,7 +30,7 @@ function ProjectInfo() {
                 <Avatar src={avatar} />
                 <Avatar src={avatar2} />
                 <Avatar src={avatar3} />
-                <AddCircleOutlineSharpIcon style={{fontSize: 40, color: "#2F80ED"}} />
+                <AddCircleOutlineSharpIcon style={{fontSize: 45, color: "#2F80ED"}} />
             </div>
         </div>
     )

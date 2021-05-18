@@ -12,16 +12,16 @@ function Header() {
             <div className="header__left">
                 <div className="header__input">
                     <SearchIcon />
-                    <input type="text" placeholder="Search" />
+                    <input type="text" placeholder="Search for anything" />
                 </div>
             </div>
             
             <div className="header__right">
                 <IconButton>
-                    <AddCircleOutlinedIcon fontSize="large" />
+                    <AddCircleOutlinedIcon style={{color: "#2F80ED", fontSize: 45}} />
                 </IconButton>
                 <IconButton>
-                    <NotificationsOutlinedIcon fontSize="large" />
+                    <NotificationsOutlinedIcon fontSize="large" style={{color: "#000000", marginRight: "10px"}} />
                 </IconButton>
                 <div className="header__info">
                     <Avatar src={avatar} />

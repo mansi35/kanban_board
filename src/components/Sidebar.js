@@ -1,7 +1,7 @@
 import React from 'react'
 import '../css/Sidebar.css'
 import SidebarRow from './SidebarRow'
-import Logo from '../resources/logo.svg';
+import Logo from '../resources/teamSpace.PNG';
 import SpeedIcon from '@material-ui/icons/Speed';
 import FolderOpenOutlinedIcon from '@material-ui/icons/FolderOpenOutlined';
 import MoveToInboxOutlinedIcon from '@material-ui/icons/MoveToInboxOutlined';

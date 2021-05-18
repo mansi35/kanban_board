@@ -4,7 +4,9 @@
     position: sticky;
     background-color: #ffffff;
     z-index: 100;
-    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+    padding: 15px;
+    padding-bottom: 0;
+    margin-left: 30px;
 }
 
 .header__left {
@@ -17,8 +19,8 @@
     align-items: center;
     background-color: #eff2f5;
     padding: 10px;
-    margin: 10px;
-    border-radius: 999px;
+    margin: 10px 0;
+    border-radius: 15px;
 }
 
 .header__input > input {
@@ -38,7 +40,7 @@
 
 .header__right {
     display: flex;
-    margin-right: 30px;
+    margin-right: 15px;
 }
 
 .header__left > img {

@@ -19,7 +19,7 @@ function Sidebar() {
             />
             <SidebarRow Icon={SpeedIcon} title="Dashboard" />
             <SidebarRow isActive="active" Icon={FolderOpenOutlinedIcon} title="Projects" />
-            <SidebarRow Icon={MoveToInboxOutlinedIcon} title="Inbox" />
+            <SidebarRow newMsg="newMsg" Icon={MoveToInboxOutlinedIcon} title="Inbox" />
             <SidebarRow Icon={TodayOutlinedIcon} title="Calender" />
             <SidebarRow Icon={CheckCircleOutlineRoundedIcon} title="Tasks" />
             <SidebarRow Icon={AssignmentOutlinedIcon} title="Reports" />

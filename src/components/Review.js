@@ -4,6 +4,7 @@ import assigned from '../resources/avatar.jpg'
 import assigned1 from '../resources/avatar2.jpg'
 import design from '../resources/designsystem.PNG'
 import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
+import AddOutlinedIcon from '@material-ui/icons/AddOutlined';
 import Task from './Task'
 
 function Review() {
@@ -18,6 +19,10 @@ function Review() {
             </div>
             <Task heading="Components" assigned={assigned} date="10 - 23 December" difficulty="High" comments="2" />
             <Task heading="Design system" image={design} assigned={assigned1} date="19 - 23 December" difficulty="Medium" comments="3" />
+            <div className="projectCard__footer">
+                <AddOutlinedIcon />
+                <h5>Add Task</h5>
+            </div>
         </div>
     )
 }

@@ -46,6 +46,12 @@
 
 .task__comments {
     display: flex;
+    align-items: center;
+}
+
+.task__comments > h6 {
+    margin: 0;
+    color: #838383;
 }
 
 .task__stats > h6 {

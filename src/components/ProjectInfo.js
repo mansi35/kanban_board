@@ -16,7 +16,7 @@ function ProjectInfo() {
             <IconButton>
                 <img src={tasks} style={{height: 50}} alt="projects" />
             </IconButton>
-            <h4>Building a new app</h4>
+            <h4 style={{margin: 0}}>Building a new app</h4>
             <IconButton>
                 <ExpandMoreIcon />
             </IconButton>

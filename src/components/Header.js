@@ -22,9 +22,10 @@ function Header() {
                 </IconButton>
                 <IconButton>
                     <NotificationsOutlinedIcon fontSize="large" style={{color: "#000000", marginRight: "10px"}} />
+                    <div className="newNotifs"></div>
                 </IconButton>
                 <div className="header__info">
-                    <Avatar src={avatar} />
+                    <Avatar src={avatar} style={{marginLeft: "15px"}} />
                     <h5 style={{margin: "0 5px"}}>Mansi Sharma</h5>
                 </div>
             </div>

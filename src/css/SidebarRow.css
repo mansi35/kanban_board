@@ -1,7 +1,7 @@
 .sidebarRow {
     display: flex;
     align-items: center;
-    padding: 0 40px;
+    padding: 5px 40px;
     cursor: pointer;
 }
 
@@ -23,4 +23,12 @@
 .sidebarRow.active {
     background-color: #C6E3FF;
     border-left: #2F80ED 5px solid;
+}
+
+.sidebarRow .newMsg {
+    background-color: #FDBC1F; 
+    height: 10px;
+    width: 10px; 
+    border-radius: 999px;
+    margin-left: -8px;
 }

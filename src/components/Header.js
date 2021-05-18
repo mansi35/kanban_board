@@ -25,7 +25,7 @@ function Header() {
                 </IconButton>
                 <div className="header__info">
                     <Avatar src={avatar} />
-                    <h5>Mansi Sharma</h5>
+                    <h5 style={{margin: "0 5px"}}>Mansi Sharma</h5>
                 </div>
             </div>
         </div>

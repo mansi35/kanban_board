@@ -11,5 +11,24 @@
     padding-left: 30px;
     padding-right: 30px;
     cursor: pointer;
-    width: 100%;
+    height: 125px;
+}
+
+.sidebar__plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ddeefd;
+    border-radius: 10px;
+    margin: 20px;
+    margin-top: 90px;
+    padding: 10px;
+}
+
+.sidebar__plan > button {
+    background-color: #ddeefd;
+    border-radius: 5px;
+    height: 45px;
+    width: 150px;
+    border: #94949c 2px solid;
 }

@@ -19,3 +19,8 @@
     font-size: xx-large;
     color: #666667;
 }
+
+.sidebarRow.active {
+    background-color: #C6E3FF;
+    border-left: #2F80ED 5px solid;
+}

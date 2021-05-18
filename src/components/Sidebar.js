@@ -18,12 +18,17 @@ function Sidebar() {
                 alt="website logo"
             />
             <SidebarRow Icon={SpeedIcon} title="Dashboard" />
-            <SidebarRow Icon={FolderOpenOutlinedIcon} title="Projects" />
+            <SidebarRow isActive="active" Icon={FolderOpenOutlinedIcon} title="Projects" />
             <SidebarRow Icon={MoveToInboxOutlinedIcon} title="Inbox" />
             <SidebarRow Icon={TodayOutlinedIcon} title="Calender" />
             <SidebarRow Icon={CheckCircleOutlineRoundedIcon} title="Tasks" />
             <SidebarRow Icon={AssignmentOutlinedIcon} title="Reports" />
             <SidebarRow Icon={SettingsOutlinedIcon} title="Settings" />
+            <div className="sidebar__plan">
+                <h5>Currently in Trial</h5>
+                <h6 style={{color: "#2F80ED"}}>Trial: 17 days left</h6>
+                <button>Upgrade Plan</button>
+            </div>
         </div>
     )
 }

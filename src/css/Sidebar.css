@@ -1,6 +1,6 @@
 .sidebar {
     border-right: 1px #b7b7be solid;
-    height: 100vh;
+    height: 100%;
 }
 
 .sidebar__logo {

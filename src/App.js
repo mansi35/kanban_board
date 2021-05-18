@@ -4,6 +4,9 @@ import Sidebar from './components/Sidebar';
 import ProjectInfo from './components/ProjectInfo';
 import View from './components/View';
 import ToDo from './components/ToDo';
+import InProgress from './components/InProgress';
+import Review from './components/Review';
+import Completed from './components/Completed';
 
 function App() {
 	return (
@@ -18,9 +21,9 @@ function App() {
 				<div style={{margin: "10px 30px"}}>
 				<div className="row">
 					<ToDo />
-					<ToDo />
-					<ToDo />
-					<ToDo />
+					<InProgress />
+					<Review />
+					<Completed />
 				</div>
 				</div>
 			</div>
